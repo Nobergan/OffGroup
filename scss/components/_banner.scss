@@ -34,6 +34,11 @@
     color: $banner-second-color;
   }
 
+  &__button:hover {
+    // background-color: $banner-primary-color;
+    color: $banner-primary-color;
+  }
+
   &__text {
     width: 533px;
     margin-top: 38px;

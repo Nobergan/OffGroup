@@ -507,7 +507,7 @@ button {
 }
 
 .site-nav__item:hover {
-  font-weight: bold;
+  color: #f79900;
 }
 
 .site-nav__link:hover {
@@ -546,6 +546,10 @@ button {
   line-height: 1.1;
   background-color: #f79900;
   color: #070508;
+}
+
+.hero__button:hover {
+  color: #ffffff;
 }
 
 .hero__text {
@@ -656,15 +660,19 @@ button {
 
 .do__item-link {
   margin-top: 20px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid grey;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.3;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-  -webkit-text-decoration-color: grey;
-          text-decoration-color: grey;
   color: #ffffff;
+}
+
+.do__item-link:hover {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
 }
 
 .team {
@@ -1129,6 +1137,7 @@ button {
 
 .footer__menu-link:hover {
   text-decoration: none;
+  color: #f79900;
 }
 
 .footer__address {
@@ -1149,6 +1158,7 @@ button {
 
 .footer__adress-link:hover {
   text-decoration: none;
+  color: #f79900;
 }
 
 .footer__soc-net {
