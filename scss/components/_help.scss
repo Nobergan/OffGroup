@@ -1,0 +1,38 @@
+.help {
+  margin-top: 90px;
+
+  &__title {
+    width: 614px;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.2;
+
+    text-transform: uppercase;
+    color: $section-title-primary-color;
+  }
+
+  &__title--part {
+    color: $orange-color;
+  }
+
+  &__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5;
+
+    color: $section-title-second-color;
+  }
+
+  &__descr--part {
+    font-weight: 900;
+    color: $orange-color;
+  }
+}
+
+.help .container {
+  display: flex;
+  justify-content: space-between;
+}

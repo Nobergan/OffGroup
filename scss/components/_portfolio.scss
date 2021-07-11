@@ -1,0 +1,48 @@
+.portfolio {
+  margin-top: 90px;
+
+  &__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 1.2;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: $section-title-primary-color;
+  }
+
+  &__tabs {
+    margin-top: 24px;
+    justify-content: center;
+    border: none;
+  }
+}
+
+.portfolio__tab-item {
+  border: none;
+
+  &:not(:last-child) {
+    margin-right: 88px !important;
+  }
+}
+
+.portfolio__tab-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.42;
+
+  color: $section-primary-text-color;
+  border: none !important;
+
+  &.active {
+    color: $orange-color !important;
+    border-bottom: 5px solid $orange-color !important;
+  }
+
+  &:hover {
+    color: $orange-color;
+  }
+}

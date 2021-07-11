@@ -1,0 +1,35 @@
+.header .container {
+  padding: 23px 15px 22px 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__img {
+  margin-right: 229px;
+}
+
+.header nav {
+  flex-grow: 2;
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.1;
+
+    color: $nav-text-color;
+  }
+
+  &__item:hover {
+    font-weight: bold;
+  }
+
+  &__link:hover {
+    text-decoration: none;
+  }
+}

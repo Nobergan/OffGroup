@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/styles.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://bootstraptema.ru/plugins/2017/izitoast/iziToast.min.css"
+    />
+    <title>Off Group</title>
+  </head>
+
+  <body>
+    <!-- Шапка -->
+    <header class="header">
+      <div class="container">
+        <img
+          class="header__img"
+          src="./img/logo-header.png"
+          alt="Text Off Group"
+        />
+        <nav>
+          <ul class="site-nav list">
+            <a href="./" class="site-nav__link"
+              ><li class="site-nav__item">О компании</li></a
+            >
+            <a href="./" class="site-nav__link"
+              ><li class="site-nav__item">Решения</li></a
+            >
+            <a href="./" class="site-nav__link"
+              ><li class="site-nav__item">Полезное</li></a
+            >
+            <a href="./" class="site-nav__link"
+              ><li class="site-nav__item">Портфолио</li></a
+            >
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Баннер -->
+      <section class="hero overlay">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleCaptions"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner hero__list">
+            <div class="carousel-item hero__img active">
+              <img
+                src="./img/banner-bg-img.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block hero__content">
+                <h5 class="hero__title">
+                  НОВИНКИ <br />
+                  <span class="hero__title--part">НОВОГО РЕЛИЗА</span>
+                </h5>
+                <button type="button" class="hero__button">БИТРИКС 24</button>
+                <p class="hero__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Amet, illo explicabo minima mollitia ut sapiente recusandae
+                  aliquam fuga ab obcaecati, sed voluptatibus fugit aliquid
+                  quibusdam eligendi fugiat unde aperiam nulla.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item hero__img">
+              <img src="./img/mid-bg-img.jpg" class="d-block w-100" alt="..." />
+              <div class="carousel-caption d-none d-md-block hero__content">
+                <h5 class="hero__title">
+                  НОВИНКИ <br />
+                  <span class="hero__title--part">НОВОГО РЕЛИЗА</span>
+                </h5>
+                <button type="button" class="hero__button">БИТРИКС 24</button>
+                <p class="hero__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Amet, illo explicabo minima mollitia ut sapiente recusandae
+                  aliquam fuga ab obcaecati, sed voluptatibus fugit aliquid
+                  quibusdam eligendi fugiat unde aperiam nulla.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item hero__img">
+              <img
+                src="./img/foot-bg-img.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block hero__content">
+                <h5 class="hero__title">
+                  НОВИНКИ <br />
+                  <span class="hero__title--part">НОВОГО РЕЛИЗА</span>
+                </h5>
+                <button type="button" class="hero__button">БИТРИКС 24</button>
+                <p class="hero__text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Amet, illo explicabo minima mollitia ut sapiente recusandae
+                  aliquam fuga ab obcaecati, sed voluptatibus fugit aliquid
+                  quibusdam eligendi fugiat unde aperiam nulla.
+                </p>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleCaptions"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Помогаем бизнесу -->
+      <section class="help">
+        <div class="container">
+          <img
+            class="help__img"
+            src="./img/section-img-1.png"
+            alt="Text Off Group help people"
+          />
+          <div class="help__title-content">
+            <h1 class="help__title">
+              Помогаем бизнесу <br />
+              развиваться <br />
+              <span class="help__title--part">онлайн!</span>
+            </h1>
+            <p class="help__descr">
+              С нами работают и двигаются вперед компании <br />
+              от <span class="help__descr--part">10</span> до
+              <span class="help__descr--part">300</span> сотрудников.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Что мы делаем -->
+      <section class="do">
+        <div class="container">
+          <ul class="do__list list">
+            <li class="do__item">
+              <h3 class="do__item-title">АВТОМАТИЗАЦИЯ БИЗНЕСА</h3>
+              <p class="do__item-descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis error nam aperiam rerum repellat ex dolorum, quia eaque
+                perspiciatis iure.
+              </p>
+              <a href="/" class="do__item-link">УЗНАТЬ БОЛЬШЕ</a>
+            </li>
+            <li class="do__item">
+              <h3 class="do__item-title">САЙТЫ И ИНТЕРНЕТ-МАГАЗИНЫ</h3>
+              <p class="do__item-descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis error nam aperiam rerum repellat ex dolorum, quia eaque
+                perspiciatis iure.
+              </p>
+              <a href="/" class="do__item-link">УЗНАТЬ БОЛЬШЕ</a>
+            </li>
+            <li class="do__item">
+              <h3 class="do__item-title">ИНДИВИДУАЛЬНАЯ РАЗРАБОТЫКА</h3>
+              <p class="do__item-descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis error nam aperiam rerum repellat ex dolorum, quia eaque
+                perspiciatis iure.
+              </p>
+              <a href="/" class="do__item-link">УЗНАТЬ БОЛЬШЕ</a>
+            </li>
+            <li class="do__item">
+              <h3 class="do__item-title">
+                ГОТОВЫЕ <br />
+                РЕШЕНЕНИЯ
+              </h3>
+              <p class="do__item-descr">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officiis error nam aperiam rerum repellat ex dolorum, quia eaque
+                perspiciatis iure.
+              </p>
+              <a href="/" class="do__item-link">УЗНАТЬ БОЛЬШЕ</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Кто эти люди -->
+      <section class="team">
+        <div class="container">
+          <div class="team__content">
+            <h3 class="team__title">Кто все эти люди</h3>
+            <div class="team__descr">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <b> Reiciendis unde veritatis voluptate minima blanditiis</b>
+                veniam illo asperiores facere molestias eveniet!
+              </p>
+              <p>
+                <b>Lorem ipsum</b> dolor sit amet consectetur adipisicing elit.
+                Possimus nisi eaque cum blanditiis ratione? Fuga itaque
+                consequuntur est similique cum!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum,
+                vero, architecto dignissimos maiores exercitationem quidem
+                provident deserunt dolore impedit sint eligendi deleniti.
+                <b
+                  >Vel fugiat, voluptates quas quaerat sunt officia ducimus
+                  molestias odit itaque dolorum</b
+                >
+                id culpa repellat. Ducimus ex adipisci perferendis beatae sequi,
+                aliquid distinctio, maiores ut, repudiandae placeat commodi.
+              </p>
+            </div>
+          </div>
+          <img
+            src="./img/section-img-2.png"
+            alt="Visit card"
+            class="team__img"
+          />
+        </div>
+      </section>
+
+      <!-- Количество работ в портфолио -->
+      <section class="work-qnt overlay-mid">
+        <div class="container">
+          <ul class="work-qnt__list list">
+            <li class="work-qnt__item">
+              <p class="work-qnt__num">150</p>
+              <p class="work-qnt__text">ПРОЕКТОВ В ПОРТФОЛИО</p>
+            </li>
+            <li class="work-qnt__item">
+              <p class="work-qnt__num work-qnt__num--color">40</p>
+              <p class="work-qnt__text">ПРОЕКТОВ В ПОРТФОЛИО</p>
+            </li>
+            <li class="work-qnt__item">
+              <p class="work-qnt__num">456</p>
+              <p class="work-qnt__text">ПРОЕКТОВ В ПОРТФОЛИО</p>
+            </li>
+            <li class="work-qnt__item">
+              <p class="work-qnt__num work-qnt__num--color">63</p>
+              <p class="work-qnt__text">ПРОЕКТОВ В ПОРТФОЛИО</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Наши работы -->
+      <section class="portfolio">
+        <div class="container">
+          <h2 class="portfolio__title">Наши работы</h2>
+          <ul class="nav nav-tabs portfolio__tabs" id="myTab" role="tablist">
+            <li class="nav-item portfolio__tab-item">
+              <a
+                class="nav-link portfolio__tab-link active"
+                id="all-tab"
+                data-toggle="tab"
+                href="#all"
+                role="tab"
+                aria-controls="all"
+                aria-selected="true"
+                >Все</a
+              >
+            </li>
+            <li class="nav-item portfolio__tab-item">
+              <a
+                class="nav-link portfolio__tab-link"
+                id="bitrix-tab"
+                data-toggle="tab"
+                href="#bitrix"
+                role="tab"
+                aria-controls="bitrix"
+                aria-selected="false"
+                >Битрикс 24</a
+              >
+            </li>
+            <li class="nav-item portfolio__tab-item">
+              <a
+                class="nav-link portfolio__tab-link"
+                id="site-tab"
+                data-toggle="tab"
+                href="#site"
+                role="tab"
+                aria-controls="site"
+                aria-selected="false"
+                >Сайты</a
+              >
+            </li>
+            <li class="nav-item portfolio__tab-item">
+              <a
+                class="nav-link portfolio__tab-link"
+                id="scripts-tab"
+                data-toggle="tab"
+                href="#scripts"
+                role="tab"
+                aria-controls="scripts"
+                aria-selected="false"
+                >Скрипты</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content portfolio__tabs-content" id="myTabContent">
+            <div
+              class="tab-pane fade show tab-content__item active"
+              id="all"
+              role="tabpanel"
+              aria-labelledby="all-tab"
+            >
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade slider"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item slider__item active">
+                    <img
+                      src="./img/slider-img.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Все работы</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-1.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Все работы</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-2.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Все работы</div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev slider__control-prev"
+                  href="#carouselExampleFade"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon slider__prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next slider__control-next"
+                  href="#carouselExampleFade"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon slider__next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade tab-content__item"
+              id="bitrix"
+              role="tabpanel"
+              aria-labelledby="bitrix-tab"
+            >
+              <div
+                id="carouselExampleFadeBit"
+                class="carousel slide carousel-fade slider"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item slider__item active">
+                    <img
+                      src="./img/slider-img.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Битрик 24</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-1.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Битрик 24</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-2.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Битрик 24</div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev slider__control-prev"
+                  href="#carouselExampleFadeBit"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon slider__prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next slider__control-next"
+                  href="#carouselExampleFadeBit"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon slider__next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade tab-content__item"
+              id="site"
+              role="tabpanel"
+              aria-labelledby="site-tab"
+            >
+              <div
+                id="carouselExampleFadeSite"
+                class="carousel slide carousel-fade slider"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item slider__item active">
+                    <img
+                      src="./img/slider-img.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Сайты</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-1.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Сайты</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-2.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Сайты</div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev slider__control-prev"
+                  href="#carouselExampleFadeSite"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon slider__prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next slider__control-next"
+                  href="#carouselExampleFadeSite"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon slider__next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div
+              class="tab-pane fade tab-content__item"
+              id="scripts"
+              role="tabpanel"
+              aria-labelledby="scripts-tab"
+            >
+              <div
+                id="carouselExampleFadeScript"
+                class="carousel slide carousel-fade slider"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item slider__item active">
+                    <img
+                      src="./img/slider-img.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Скрипты</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-1.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Скрипты</div>
+                  </div>
+                  <div class="carousel-item slider__item">
+                    <img
+                      src="./img/section-img-2.png"
+                      class="d-block w-100 slider__img"
+                      alt="..."
+                    />
+                    <div class="slider__item-content">
+                      <p>
+                        <b>Lorem ipsum dolor sit amet,</b> consectetur
+                        adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliquae
+                      </p>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore
+                      </p>
+                      <p>
+                        Уt dolore magna aliqua.Lorem ipsum dolor sit amet,
+                        consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                      </p>
+                    </div>
+                    <div class="slider__item-lable">Скрипты</div>
+                  </div>
+                </div>
+                <a
+                  class="carousel-control-prev slider__control-prev"
+                  href="#carouselExampleFadeScript"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon slider__prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next slider__control-next"
+                  href="#carouselExampleFadeScript"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon slider__next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Бесплатная консультация -->
+      <section class="callback">
+        <div class="container">
+          <div class="callback__left">
+            <h2 class="callback__title">Бесплатная консультация</h2>
+            <div class="callback__descr">
+              <p>
+                Lorem ipsum dolor sit
+                <b>amet, consectetur adipisicing elit, sed</b> do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>
+                <b>Lorem ipsum</b> dolor sit amet, consectetur adipisicing elit,
+                sed do.
+              </p>
+            </div>
+          </div>
+          <div class="callback__right">
+            <form action="" class="callback__form">
+              <label for="name" class="callback__form-lable"
+                >Имя <span class="callback__form-lable--star">*</span></label
+              >
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="callback__form-input"
+                placeholder="Представьтесь,  пожалуйста"
+              />
+
+              <label for="phone" class="callback__form-lable"
+                >Телефон
+                <span class="callback__form-lable--star">*</span></label
+              >
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                class="callback__form-input"
+                placeholder="+7 (000) 000-00-00"
+                pattern="^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$"
+              />
+
+              <label for="email" class="callback__form-lable">Почта</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                class="callback__form-input"
+                placeholder="mail@domain.ru"
+                pattern="^^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$"
+              />
+
+              <button type="button" class="callback__form-btn">
+                ОТПРАВИТЬ
+              </button>
+
+              <p class="callback__form-text">
+                Нажимая на кнопку «Отправить», я даю согласие на обработку
+                персональных данных и соглашаюсь c политикой конфиденциальности
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Футер -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__flex">
+          <div class="footer__menu">
+            <div class="footer__solutions">
+              <h3 class="footer__title">РЕШЕНИЯ</h3>
+              <ul class="footer__menu-list list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link"
+                    >Автоматизация бизнеса</a
+                  >
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link"
+                    >Сайты и интернет-магазины</a
+                  >
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link"
+                    >Индивидуальная разработка</a
+                  >
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Готовые решения</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__shop">
+              <h3 class="footer__title">МАГАЗИН</h3>
+              <ul class="footer__menu-list list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Лицензии Битрикс24</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Лицензии 1С Битрикс</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Приложения Битрикс24</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__info">
+              <h3 class="footer__title">ИНФОРМАЦИЯ</h3>
+              <ul class="footer__menu-list list">
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">О компании</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Соглашение</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="/" class="footer__menu-link">Блог</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <address class="footer__address">
+            <a href="tel:+78124673515" class="footer__adress-link"
+              >+7 (812) 467-35-15</a
+            >
+            <a href="tel:88000000000" class="footer__adress-link"
+              >8 (800) 000-00-00</a
+            >
+            <div class="footer__soc-net">
+              <a href="/" class="footer__soc-net-link">
+                <svg class="footer__soc-net-img">
+                  <use href="./img/sprite.svg#icon-vk"></use>
+                </svg>
+              </a>
+              <a href="/" class="footer__soc-net-link">
+                <svg class="footer__soc-net-img">
+                  <use href="./img/sprite.svg#icon-insta"></use>
+                </svg>
+              </a>
+              <a href="/" class="footer__soc-net-link">
+                <svg class="footer__soc-net-img">
+                  <use href="./img/sprite.svg#icon-youtube"></use>
+                </svg>
+              </a>
+            </div>
+          </address>
+        </div>
+
+        <div class="footer__logo">
+          <a href="/"> <img src="./img/logo-footer.png" alt="" /></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://bootstraptema.ru/plugins/2017/izitoast/iziToast.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+.hero {
+  background-color: #2f303a;
+
+  &__img img {
+    height: 516px;
+  }
+
+  &__title {
+    text-align: start;
+    padding: 0;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 1;
+
+    color: $banner-primary-color;
+  }
+
+  &__content {
+    bottom: 80px;
+  }
+
+  &__button {
+    width: 239px;
+    padding: 8px 33px;
+    margin-top: 15px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1.1;
+
+    background-color: #f79900;
+    color: $banner-second-color;
+  }
+
+  &__text {
+    width: 533px;
+    margin-top: 38px;
+    margin-bottom: 0;
+    text-align: start;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: $banner-primary-color;
+  }
+}
+
+.hero__title--part {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1;
+
+  color: $banner-primary-color;
+}

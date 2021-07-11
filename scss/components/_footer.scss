@@ -1,0 +1,93 @@
+.footer {
+  margin-top: 90px;
+  padding: 90px 0;
+
+  background-image: url('../img/foot-bg-img.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  &__flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__solutions {
+    width: 211px;
+    margin-right: 96px;
+  }
+
+  &__shop {
+    width: 177px;
+    margin-right: 132px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.48;
+
+    color: $footer-primary-text-color;
+  }
+}
+
+.footer__menu {
+  display: flex;
+
+  &-list {
+    margin-top: 25px;
+  }
+
+  &-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.97;
+
+    text-decoration: none;
+
+    color: $footer-primary-text-color;
+  }
+
+  &-link:hover {
+    text-decoration: none;
+  }
+}
+
+.footer__address {
+  width: 182px;
+}
+
+.footer__adress-link {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.48;
+
+  color: $footer-primary-text-color;
+}
+
+.footer__adress-link:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.footer__adress-link:hover {
+  text-decoration: none;
+}
+
+.footer__soc-net {
+  margin-top: 24px;
+
+  &-link:not(:last-child) {
+    margin-right: 7px;
+  }
+
+  &-img {
+    width: 31px;
+    height: 31px;
+  }
+}
+
+.footer__logo {
+  margin-top: 46px;
+}
