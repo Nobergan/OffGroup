@@ -834,14 +834,14 @@ button {
 }
 
 .slider__prev-icon {
-  background-image: url("../../img/arrow-left.svg");
+  background-image: url("../img/arrow-left.svg");
   background-repeat: no-repeat;
   width: 52px;
   height: 52px;
 }
 
 .slider__next-icon {
-  background-image: url("../../img/arrow-right.svg");
+  background-image: url("../img/arrow-right.svg");
   background-repeat: no-repeat;
   width: 52px;
   height: 52px;
